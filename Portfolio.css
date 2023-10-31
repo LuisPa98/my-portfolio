@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'VT323';
+    src:url('VT323-Regular.ttf') format('TrueType')
+}
+
+* {
+    box-sizing: border-box;
+    font-family: VT323;
+}
+
+html, body {
+    padding-top: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(RGB(176,201,212), RGB(175,178,201));
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: slateblue;
+    border-bottom: 2px solid slateblue;
+    animation-fill-mode: forwards 4s;
+}
+
+.container {
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    z-index: 10;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.image {
+    background-image: url(https://images.ctfassets.net/ocguej8ubu6o/oaI9G00e4iq0vwp9PmaFn/6e46bfa28b49a0d81b94054cb6c62673/navidbaraty-GCT-72.jpg?w=1180&q=50);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 739px;
+}
+
+.container2 {
+    z-index: auto;
+    padding-top: 100px;
+    margin-left: 1110px;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+h1, p {
+    text-align: center;
+}
+

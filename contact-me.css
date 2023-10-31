@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'VT323';
+    src:url('VT323-Regular.ttf') format('TrueType')
+}
+
+* {
+    box-sizing: border-box;
+    font-family: VT323;
+}
+
+html, body {
+    padding-top: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(RGB(176,201,212), RGB(175,178,201));
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: slateblue;
+    border-bottom: 2px solid slateblue;
+    animation-fill-mode: forwards 4s;
+}
+
+.container {
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    z-index: 10;
+}
+
+li {
+    display: inline-block;
+    width: 100px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.container2 {
+    padding-top: 100px;
+    text-align: center;
+}
